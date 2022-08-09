@@ -55,8 +55,8 @@ The project is model in a Django Framework so that it can be published in webpag
 
 ### Installation
 
-* Django and Django_neomodel installation refer the [Django tutorial](https://gitlab.scai.fraunhofer.de/ndv/research/automotive/cae_web/-/blob/ganesh/documents/new/Django.pdf)
-* Neo4j instatllation refer [Neo4j tutorial](https://gitlab.scai.fraunhofer.de/ndv/research/automotive/cae_nlp/-/blob/master/documents/Neo4j.pdf)
+* Django and Django_neomodel installation refer the [Django tutorial](https://github.com/Ganesamanian/Webscrapping-EuroNcap-using-Scrapy-to-Neo4j/blob/master/Document/Django.pdf)
+* Neo4j instatllation refer [Neo4j tutorial](https://github.com/Ganesamanian/Webscrapping-EuroNcap-using-Scrapy-to-Neo4j/blob/master/Document/Neo4j.pdf)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
