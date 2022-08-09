@@ -23,11 +23,11 @@
 ## About The Project
 This project is about webscrapping the [EruoNcap website](https://www.euroncap.com/en/) into Neo4j graphically representing the flow of webpages with nodes and links.
 
-![EuroNcap](Image/EuroNcap website.png)
+![EuroNcap](Image/EuroNcap_website.png)
 
 The above image shows the Euroncap website (front page) whereas the subesquent webpages can be accessed through the following six options available at the current page that is marked with Red box.
 
-![Neo4j](Image/Neo4j_first branch.png)
+![Neo4j](Image/Neo4j_first_branch.png)
 
 The above image is the graphical representation of the Euroncap webpage in the Neo4j where the [main page](https://www.euroncap.com/en/)) is related to other six nodes with the relationship LINKED_TO which are [About Euro NCAP](https://www.euroncap.com/en/about-euro-ncap/), [Ratings&Rewards](https://www.euroncap.com/en/ratings-rewards/), [Vehicle Safety](https://www.euroncap.com/en/vehicle-safety/), [Press&Media](https://www.euroncap.com/en/press-media/), [For Engineers](https://www.euroncap.com/en/for-engineers/), [Contact](https://www.euroncap.com/en/contact/). These 6 nodes will have further subsequent pages that is also represented in the above image. The overall connection of the webpage is presented in the below image.
 
