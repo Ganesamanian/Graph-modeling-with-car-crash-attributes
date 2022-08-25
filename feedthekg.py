@@ -1030,33 +1030,33 @@ def external_connection():
 if __name__ == '__main__':
 
     # Webscrape the EuroNcap webpage
-    # data = web_scrapping()
+    data = web_scrapping()
 
     # Establish the connection with Neo4j
     db.set_connection('bolt://neo4j:euroncap@localhost:7687')
     # db.set_connection('bolt://neo4j:euroncap@localhost:4687')
     
     # Delete all the existing nodes
-    # db.cypher_query("MATCH (n) DETACH DELETE n")
+    db.cypher_query("MATCH (n) DETACH DELETE n")
     
     # Main Function to connect the nodes
-    # URLS, HTMLS = graph(data)
+    URLS, HTMLS = graph(data)
    
     # Building base graph with links 
     # and respective html page of it
-    # leaf_nodes(URLS, HTMLS)
+    leaf_nodes(URLS, HTMLS)
 
     # Categorizing based on vehicle
     # Class and year
-    # class_categorization()
+    class_categorization()
 
     # Adding protocol to the 
     # Existing year and class
-    # protocol_connection()
+    protocol_connection()
 
     # Buliding connection with the
     # main graph
-    external_connection()
+    # external_connection()
     
 
     
